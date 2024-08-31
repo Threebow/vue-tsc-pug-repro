@@ -7,8 +7,8 @@ import PugListUser from './components/PugListUser.vue';
 <template>
     <HtmlListUser></HtmlListUser>
 
-    <!-- NOTE: removing the below component and building, the app works 100% perfectly -->
-    <!-- as soon as we include it, like so, we get zero type errors and many runtime errors -->
-    <!-- it seems that using a Pug template will bypass the type checker entirely -->
+    <!-- NOTE: removing the below component and building, the app works perfectly -->
+    <!-- as soon as we include it like so, we get zero typecheck errors, and many runtime errors -->
+    <!-- it seems that using a Pug template will bypass the type checker entirely within templates -->
     <PugListUser></PugListUser>
 </template>
