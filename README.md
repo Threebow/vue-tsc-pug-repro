@@ -6,6 +6,7 @@
 
 ```
 git clone https://github.com/Threebow/vue-tsc-pug-repro
+cd vue-tsc-pug-repro
 pnpm install
 pnpm type-check
 pnpm dev
